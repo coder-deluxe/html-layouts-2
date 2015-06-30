@@ -1,0 +1,94 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+
+}
+
+body {
+
+    /*padding: 3%;*/
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    width: 90%;;
+    background: black;
+    margin-left: 5%;
+
+}
+
+.h1-text {
+    font-size: 46px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 27px;
+    text-decoration: none;
+}
+
+ul li {
+    display: inline;
+    margin-right: 20px;
+    font-family: arial;
+
+}
+
+ul li a:link {
+
+    color: white;
+    text-decoration: none;
+}
+
+ul li a.item1:visited {
+    color: blue;
+    font-family: arial;
+    text-decoration: none;
+
+}
+
+ul li a.item2:visited {
+    color: blue;
+
+}
+
+ul li a:hover {
+    color: red;
+
+}
+
+.main-central-container {
+    height: 88%;
+    -webkit-column-count: 2 200px;
+    -moz-column-count: 2 200px;
+    column-count: 2 200px;
+    -webkit-column-width: 300px;
+    -moz-column-width: 300px;
+    column-width: 300px;
+    -webkit-column-gap: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    font-size: 12.2px;
+
+}
+
+.empty-grey-box {
+    height: 40%;
+    width: 100%;
+    background: grey;
+    margin-top: 18%;
+
+
+}
+
+footer {
+    height: 10%;
+    width: 90%;
+    background: black;
+    margin-left: 5%;
+}
